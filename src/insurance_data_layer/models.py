@@ -3,9 +3,9 @@ from __future__ import annotations
 from datetime import date, datetime
 from decimal import Decimal
 from enum import StrEnum
-from typing import Annotated, Literal
+from typing import Annotated, Any, Literal
 
-from pydantic import BaseModel, ConfigDict, Field, HttpUrl, field_validator
+from pydantic import BaseModel, ConfigDict, Field, HttpUrl, model_validator
 
 
 class StrictModel(BaseModel):
@@ -59,6 +59,16 @@ class Premium(Money):
     mapping_status: MappingStatus = MappingStatus.VERIFIED
 
 
+class SourceEvidence(StrictModel):
+    field: str
+    raw_label: str | None = None
+    raw_value: Any = None
+    source_language: str | None = Field(
+        default=None,
+        pattern=r"^[a-z]{2}$",
+    )
+
+
 class Provenance(StrictModel):
     source_site: str
     source_url: HttpUrl
@@ -79,7 +89,10 @@ class Product(StrictModel):
     code: str
     name: str
     insurance_type: InsuranceType
-    market_country: str | None = Field(default=None, pattern=r"^[A-Z]{2}$")
+    market_country: str | None = Field(
+        default=None,
+        pattern=r"^[A-Z]{2}$",
+    )
 
 
 class Plan(StrictModel):
@@ -115,11 +128,18 @@ class QuoteRequest(StrictModel):
     submitted_at: datetime | None = None
 
 
+class QuoteOption(StrictModel):
+    option_key: str
+    status: Literal["observed", "expired", "withdrawn"] = "observed"
+    expires_at: datetime | None = None
+
+
 class ReimbursementRule(StrictModel):
     rule_type: Literal["reimbursement"] = "reimbursement"
     benefit_code: str
     rate: Decimal = Field(ge=0, le=1)
     mapping_status: MappingStatus = MappingStatus.VERIFIED
+    source_evidence: SourceEvidence
 
 
 class LimitRule(StrictModel):
@@ -129,13 +149,13 @@ class LimitRule(StrictModel):
     scope: str
     unlimited: bool = False
     mapping_status: MappingStatus = MappingStatus.VERIFIED
+    source_evidence: SourceEvidence
 
-    @field_validator("amount")
-    @classmethod
-    def require_amount_unless_unlimited(cls, value: Money | None, info):
-        if value is None and not info.data.get("unlimited", False):
+    @model_validator(mode="after")
+    def validate_amount(self) -> LimitRule:
+        if self.amount is None and not self.unlimited:
             raise ValueError("amount is required unless unlimited is true")
-        return value
+        return self
 
 
 class ExcessRule(StrictModel):
@@ -144,6 +164,7 @@ class ExcessRule(StrictModel):
     amount: Money
     scope: str
     mapping_status: MappingStatus = MappingStatus.AMBIGUOUS
+    source_evidence: SourceEvidence
 
 
 class WaitingPeriodRule(StrictModel):
@@ -152,8 +173,13 @@ class WaitingPeriodRule(StrictModel):
     duration_value: int = Field(gt=0)
     duration_unit: DurationUnit
     eligible_from: date | None = None
-    starts_from: str = "policy_effective_date"
+    starts_from: Literal[
+        "policy_effective_date",
+        "quote_date",
+        "unknown",
+    ] = "policy_effective_date"
     mapping_status: MappingStatus = MappingStatus.VERIFIED
+    source_evidence: SourceEvidence
 
 
 class BenefitRule(StrictModel):
@@ -162,6 +188,7 @@ class BenefitRule(StrictModel):
     label: str
     status: CoverageStatus
     mapping_status: MappingStatus
+    source_evidence: SourceEvidence
 
 
 class DurationRule(StrictModel):
@@ -171,10 +198,55 @@ class DurationRule(StrictModel):
     duration_unit: DurationUnit | None = None
     unlimited: bool = False
     mapping_status: MappingStatus = MappingStatus.INFERRED
+    source_evidence: SourceEvidence
+
+    @model_validator(mode="after")
+    def validate_duration(self) -> DurationRule:
+        if self.unlimited:
+            if self.duration_value is not None or self.duration_unit is not None:
+                raise ValueError(
+                    "unlimited duration cannot have duration_value or duration_unit"
+                )
+            return self
+
+        if self.duration_value is None or self.duration_unit is None:
+            raise ValueError(
+                "duration_value and duration_unit are required unless unlimited is true"
+            )
+        return self
+
+
+class MaximumDuration(StrictModel):
+    value: int = Field(gt=0)
+    unit: DurationUnit
+
+
+class TerritoryRule(StrictModel):
+    rule_type: Literal["territory"] = "territory"
+    territory_code: str
+    status: CoverageStatus
+    maximum_duration: MaximumDuration | None = None
+    unlimited_duration: bool = False
+    mapping_status: MappingStatus = MappingStatus.INFERRED
+    source_evidence: SourceEvidence
+
+    @model_validator(mode="after")
+    def validate_territory_duration(self) -> TerritoryRule:
+        if self.unlimited_duration and self.maximum_duration is not None:
+            raise ValueError(
+                "unlimited territory duration cannot have maximum_duration"
+            )
+        return self
 
 
 Rule = Annotated[
-    ReimbursementRule | LimitRule | ExcessRule | WaitingPeriodRule | BenefitRule | DurationRule,
+    ReimbursementRule
+    | LimitRule
+    | ExcessRule
+    | WaitingPeriodRule
+    | BenefitRule
+    | DurationRule
+    | TerritoryRule,
     Field(discriminator="rule_type"),
 ]
 
@@ -187,14 +259,14 @@ class QualityIssue(StrictModel):
 
 
 class CanonicalRecord(StrictModel):
-    schema_version: Literal["1.0"] = "1.0"
+    schema_version: Literal["1.1"] = "1.1"
     canonical_record_key: str
     provider: Provider
     product: Product
     plan: Plan
     quote_request: QuoteRequest
+    quote_option: QuoteOption
     premiums: list[Premium]
     rules: list[Rule]
     provenance: Provenance
     quality_issues: list[QualityIssue] = Field(default_factory=list)
-
