@@ -1,0 +1,1886 @@
+[
+{
+  "input": {
+    "animal_name": "Cat49",
+    "birth_day": "2024-04-23",
+    "gender": "female",
+    "species": "CHAT",
+    "breed": "SOMALI",
+    "is_cross_breed": false,
+    "is_indoor": true,
+    "city": "35000",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  },
+  "output": {
+    "id": "cac6d818-cc7d-4cb6-8182-b042157bf661",
+    "pet_id": "6978bd31-878c-4aff-ad57-caa633393f71",
+    "source_site": "santevet.com",
+    "provider_name": "Santevet",
+    "package_name": "Light",
+    "package_code": "LowCost",
+    "premium_amount": 14.26,
+    "premium_currency": "EUR",
+    "premium_period": "monthly",
+    "coverage_amount": 60,
+    "excess_amount": 0,
+    "features": {
+      "coverage_limits": {
+        "accidentIllness": 1500,
+        "accident": 0,
+        "illness": 0,
+        "prevention": 30,
+        "therapeuticNutrition": 0
+      },
+      "waiting_periods": {
+        "waitingPeriodAccident": {
+          "date": "2026-07-30",
+          "value": 2,
+          "granularity": "days"
+        },
+        "waitingPeriodIllness": {
+          "date": "2026-09-11",
+          "value": 45,
+          "granularity": "days"
+        },
+        "waitingPeriodSurgery": {
+          "date": "2027-01-28",
+          "value": 6,
+          "granularity": "months"
+        }
+      },
+      "management_fee": 0,
+      "is_recommended": false,
+      "options": []
+    },
+    "insurance_metadata": {
+      "formula_id": 274,
+      "level_id": 1,
+      "brand_id": 0,
+      "country_code": "FR"
+    },
+    "quote_url": "https://assurance.santevet.com",
+    "scraped_at": "2026-07-28T09:47:42.399606+00:00",
+    "scrape_status": "SUCCESS",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  }
+},
+{
+  "input": {
+    "animal_name": "Cat49",
+    "birth_day": "2024-04-23",
+    "gender": "female",
+    "species": "CHAT",
+    "breed": "SOMALI",
+    "is_cross_breed": false,
+    "is_indoor": true,
+    "city": "35000",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  },
+  "output": {
+    "id": "40b579cf-d506-43f1-ba7a-d7fa9147a5a4",
+    "pet_id": "b8477dee-3efc-4baf-83fc-6c31c84bde22",
+    "source_site": "santevet.com",
+    "provider_name": "Santevet",
+    "package_name": "Confort",
+    "package_code": "MiddleCost",
+    "premium_amount": 21.7,
+    "premium_currency": "EUR",
+    "premium_period": "monthly",
+    "coverage_amount": 70,
+    "excess_amount": 20,
+    "features": {
+      "coverage_limits": {
+        "accidentIllness": 2000,
+        "accident": 0,
+        "illness": 0,
+        "prevention": 50,
+        "therapeuticNutrition": 0
+      },
+      "waiting_periods": {
+        "waitingPeriodAccident": {
+          "date": "2026-07-30",
+          "value": 2,
+          "granularity": "days"
+        },
+        "waitingPeriodIllness": {
+          "date": "2026-09-11",
+          "value": 45,
+          "granularity": "days"
+        },
+        "waitingPeriodSurgery": {
+          "date": "2027-01-28",
+          "value": 6,
+          "granularity": "months"
+        }
+      },
+      "management_fee": 0,
+      "is_recommended": false,
+      "options": []
+    },
+    "insurance_metadata": {
+      "formula_id": 275,
+      "level_id": 2,
+      "brand_id": 0,
+      "country_code": "FR"
+    },
+    "quote_url": "https://assurance.santevet.com",
+    "scraped_at": "2026-07-28T09:47:42.399737+00:00",
+    "scrape_status": "SUCCESS",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  }
+},
+{
+  "input": {
+    "animal_name": "Cat49",
+    "birth_day": "2024-04-23",
+    "gender": "female",
+    "species": "CHAT",
+    "breed": "SOMALI",
+    "is_cross_breed": false,
+    "is_indoor": true,
+    "city": "35000",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  },
+  "output": {
+    "id": "1569ae84-5b9c-4676-aa1f-c9afcfd864b1",
+    "pet_id": "7596aec7-3d88-45b0-8573-582813859f0b",
+    "source_site": "santevet.com",
+    "provider_name": "Santevet",
+    "package_name": "Confort +",
+    "package_code": "HighCost",
+    "premium_amount": 29.98,
+    "premium_currency": "EUR",
+    "premium_period": "monthly",
+    "coverage_amount": 80,
+    "excess_amount": 30,
+    "features": {
+      "coverage_limits": {
+        "accidentIllness": 3000,
+        "accident": 0,
+        "illness": 0,
+        "prevention": 75,
+        "therapeuticNutrition": 0
+      },
+      "waiting_periods": {
+        "waitingPeriodAccident": {
+          "date": "2026-07-30",
+          "value": 2,
+          "granularity": "days"
+        },
+        "waitingPeriodIllness": {
+          "date": "2026-09-11",
+          "value": 45,
+          "granularity": "days"
+        },
+        "waitingPeriodSurgery": {
+          "date": "2027-01-28",
+          "value": 6,
+          "granularity": "months"
+        }
+      },
+      "management_fee": 0,
+      "is_recommended": true,
+      "options": []
+    },
+    "insurance_metadata": {
+      "formula_id": 276,
+      "level_id": 3,
+      "brand_id": 0,
+      "country_code": "FR"
+    },
+    "quote_url": "https://assurance.santevet.com",
+    "scraped_at": "2026-07-28T09:47:42.399829+00:00",
+    "scrape_status": "SUCCESS",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  }
+},
+{
+  "input": {
+    "animal_name": "Cat49",
+    "birth_day": "2024-04-23",
+    "gender": "female",
+    "species": "CHAT",
+    "breed": "SOMALI",
+    "is_cross_breed": false,
+    "is_indoor": true,
+    "city": "35000",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  },
+  "output": {
+    "id": "80abbed2-23e3-4e58-a242-ae56f9d2a0cc",
+    "pet_id": "f40421c1-1c47-40b8-ab1c-b431a5c3f9c2",
+    "source_site": "santevet.com",
+    "provider_name": "Santevet",
+    "package_name": "Premium",
+    "package_code": "HighCost",
+    "premium_amount": 38.08,
+    "premium_currency": "EUR",
+    "premium_period": "monthly",
+    "coverage_amount": 90,
+    "excess_amount": 50,
+    "features": {
+      "coverage_limits": {
+        "accidentIllness": 3500,
+        "accident": 0,
+        "illness": 0,
+        "prevention": 120,
+        "therapeuticNutrition": 0
+      },
+      "waiting_periods": {
+        "waitingPeriodAccident": {
+          "date": "2026-07-30",
+          "value": 2,
+          "granularity": "days"
+        },
+        "waitingPeriodIllness": {
+          "date": "2026-09-11",
+          "value": 45,
+          "granularity": "days"
+        },
+        "waitingPeriodSurgery": {
+          "date": "2027-01-28",
+          "value": 6,
+          "granularity": "months"
+        }
+      },
+      "management_fee": 0,
+      "is_recommended": false,
+      "options": []
+    },
+    "insurance_metadata": {
+      "formula_id": 277,
+      "level_id": 3,
+      "brand_id": 0,
+      "country_code": "FR"
+    },
+    "quote_url": "https://assurance.santevet.com",
+    "scraped_at": "2026-07-28T09:47:42.399957+00:00",
+    "scrape_status": "SUCCESS",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  }
+},
+{
+  "input": {
+    "animal_name": "Cat49",
+    "birth_day": "2024-04-23",
+    "gender": "female",
+    "species": "CHAT",
+    "breed": "SOMALI",
+    "is_cross_breed": false,
+    "is_indoor": true,
+    "city": "35000",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  },
+  "output": {
+    "id": "4cf5265e-3467-4e39-9cde-f014c02cf5b3",
+    "pet_id": "ea0697e9-99ac-47ad-b3ac-b81095c16457",
+    "source_site": "santevet.com",
+    "provider_name": "Santevet",
+    "package_name": "Optimal",
+    "package_code": "HighCost",
+    "premium_amount": 47.09,
+    "premium_currency": "EUR",
+    "premium_period": "monthly",
+    "coverage_amount": 100,
+    "excess_amount": 75,
+    "features": {
+      "coverage_limits": {
+        "accidentIllness": 4000,
+        "accident": 0,
+        "illness": 0,
+        "prevention": 150,
+        "therapeuticNutrition": 50
+      },
+      "waiting_periods": {
+        "waitingPeriodAccident": {
+          "date": "2026-07-30",
+          "value": 2,
+          "granularity": "days"
+        },
+        "waitingPeriodIllness": {
+          "date": "2026-09-11",
+          "value": 45,
+          "granularity": "days"
+        },
+        "waitingPeriodSurgery": {
+          "date": "2027-01-28",
+          "value": 6,
+          "granularity": "months"
+        }
+      },
+      "management_fee": 0,
+      "is_recommended": false,
+      "options": []
+    },
+    "insurance_metadata": {
+      "formula_id": 278,
+      "level_id": 3,
+      "brand_id": 0,
+      "country_code": "FR"
+    },
+    "quote_url": "https://assurance.santevet.com",
+    "scraped_at": "2026-07-28T09:47:42.400051+00:00",
+    "scrape_status": "SUCCESS",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  }
+},
+{
+  "input": {
+    "animal_name": "Cat49",
+    "birth_day": "2024-04-23",
+    "gender": "female",
+    "species": "CHAT",
+    "breed": "SOMALI",
+    "is_cross_breed": false,
+    "is_indoor": true,
+    "city": "35000",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  },
+  "output": {
+    "id": "9a10201d-9f8d-4777-a490-58bf9121f807",
+    "pet_id": "ad9c3702-067a-4048-a7c9-96694f293991",
+    "source_site": "santevet.com",
+    "provider_name": "Santevet",
+    "package_name": "Cat Indoor",
+    "package_code": "LowCost",
+    "premium_amount": 25.12,
+    "premium_currency": "EUR",
+    "premium_period": "monthly",
+    "coverage_amount": 90,
+    "excess_amount": 50,
+    "features": {
+      "coverage_limits": {
+        "accidentIllness": 3000,
+        "accident": 0,
+        "illness": 0,
+        "prevention": 75,
+        "therapeuticNutrition": 50
+      },
+      "waiting_periods": {
+        "waitingPeriodAccident": {
+          "date": "2026-07-30",
+          "value": 2,
+          "granularity": "days"
+        },
+        "waitingPeriodIllness": {
+          "date": "2026-09-11",
+          "value": 45,
+          "granularity": "days"
+        },
+        "waitingPeriodSurgery": {
+          "date": "2027-01-28",
+          "value": 6,
+          "granularity": "months"
+        }
+      },
+      "management_fee": 0,
+      "is_recommended": false,
+      "options": []
+    },
+    "insurance_metadata": {
+      "formula_id": 279,
+      "level_id": 1,
+      "brand_id": 0,
+      "country_code": "FR"
+    },
+    "quote_url": "https://assurance.santevet.com",
+    "scraped_at": "2026-07-28T09:47:42.400145+00:00",
+    "scrape_status": "SUCCESS",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  }
+},
+{
+  "input": {
+    "animal_name": "Cat46",
+    "birth_day": "2019-03-12",
+    "gender": "male",
+    "species": "CHAT",
+    "breed": "MANX",
+    "is_cross_breed": false,
+    "is_indoor": true,
+    "city": "44000",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  },
+  "output": {
+    "id": "7b4fef93-12b7-4850-bf44-eb870224c79d",
+    "pet_id": "043d60a5-01fe-428e-8e2f-ae8d2532a4f2",
+    "source_site": "santevet.com",
+    "provider_name": "Santevet",
+    "package_name": "Light",
+    "package_code": "LowCost",
+    "premium_amount": 16.83,
+    "premium_currency": "EUR",
+    "premium_period": "monthly",
+    "coverage_amount": 60,
+    "excess_amount": 0,
+    "features": {
+      "coverage_limits": {
+        "accidentIllness": 1500,
+        "accident": 0,
+        "illness": 0,
+        "prevention": 30,
+        "therapeuticNutrition": 0
+      },
+      "waiting_periods": {
+        "waitingPeriodAccident": {
+          "date": "2026-07-30",
+          "value": 2,
+          "granularity": "days"
+        },
+        "waitingPeriodIllness": {
+          "date": "2026-09-11",
+          "value": 45,
+          "granularity": "days"
+        },
+        "waitingPeriodSurgery": {
+          "date": "2027-01-28",
+          "value": 6,
+          "granularity": "months"
+        }
+      },
+      "management_fee": 0,
+      "is_recommended": false,
+      "options": []
+    },
+    "insurance_metadata": {
+      "formula_id": 274,
+      "level_id": 1,
+      "brand_id": 0,
+      "country_code": "FR"
+    },
+    "quote_url": "https://assurance.santevet.com",
+    "scraped_at": "2026-07-28T09:47:50.389004+00:00",
+    "scrape_status": "SUCCESS",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  }
+},
+{
+  "input": {
+    "animal_name": "Cat46",
+    "birth_day": "2019-03-12",
+    "gender": "male",
+    "species": "CHAT",
+    "breed": "MANX",
+    "is_cross_breed": false,
+    "is_indoor": true,
+    "city": "44000",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  },
+  "output": {
+    "id": "9af763d9-0f29-46d1-987d-55fb8e95b812",
+    "pet_id": "1ee6fed5-d965-4d44-b0a5-e3ecb4c5d9d8",
+    "source_site": "santevet.com",
+    "provider_name": "Santevet",
+    "package_name": "Confort",
+    "package_code": "MiddleCost",
+    "premium_amount": 24.34,
+    "premium_currency": "EUR",
+    "premium_period": "monthly",
+    "coverage_amount": 70,
+    "excess_amount": 20,
+    "features": {
+      "coverage_limits": {
+        "accidentIllness": 2000,
+        "accident": 0,
+        "illness": 0,
+        "prevention": 50,
+        "therapeuticNutrition": 0
+      },
+      "waiting_periods": {
+        "waitingPeriodAccident": {
+          "date": "2026-07-30",
+          "value": 2,
+          "granularity": "days"
+        },
+        "waitingPeriodIllness": {
+          "date": "2026-09-11",
+          "value": 45,
+          "granularity": "days"
+        },
+        "waitingPeriodSurgery": {
+          "date": "2027-01-28",
+          "value": 6,
+          "granularity": "months"
+        }
+      },
+      "management_fee": 0,
+      "is_recommended": false,
+      "options": []
+    },
+    "insurance_metadata": {
+      "formula_id": 275,
+      "level_id": 2,
+      "brand_id": 0,
+      "country_code": "FR"
+    },
+    "quote_url": "https://assurance.santevet.com",
+    "scraped_at": "2026-07-28T09:47:50.389151+00:00",
+    "scrape_status": "SUCCESS",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  }
+},
+{
+  "input": {
+    "animal_name": "Cat46",
+    "birth_day": "2019-03-12",
+    "gender": "male",
+    "species": "CHAT",
+    "breed": "MANX",
+    "is_cross_breed": false,
+    "is_indoor": true,
+    "city": "44000",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  },
+  "output": {
+    "id": "ddb9aa05-a1a0-4489-bdb1-c35e6ce5c928",
+    "pet_id": "8238a192-bd1a-4398-92e7-ddfc224ace6b",
+    "source_site": "santevet.com",
+    "provider_name": "Santevet",
+    "package_name": "Confort +",
+    "package_code": "HighCost",
+    "premium_amount": 34.11,
+    "premium_currency": "EUR",
+    "premium_period": "monthly",
+    "coverage_amount": 80,
+    "excess_amount": 30,
+    "features": {
+      "coverage_limits": {
+        "accidentIllness": 3000,
+        "accident": 0,
+        "illness": 0,
+        "prevention": 75,
+        "therapeuticNutrition": 0
+      },
+      "waiting_periods": {
+        "waitingPeriodAccident": {
+          "date": "2026-07-30",
+          "value": 2,
+          "granularity": "days"
+        },
+        "waitingPeriodIllness": {
+          "date": "2026-09-11",
+          "value": 45,
+          "granularity": "days"
+        },
+        "waitingPeriodSurgery": {
+          "date": "2027-01-28",
+          "value": 6,
+          "granularity": "months"
+        }
+      },
+      "management_fee": 0,
+      "is_recommended": true,
+      "options": []
+    },
+    "insurance_metadata": {
+      "formula_id": 276,
+      "level_id": 3,
+      "brand_id": 0,
+      "country_code": "FR"
+    },
+    "quote_url": "https://assurance.santevet.com",
+    "scraped_at": "2026-07-28T09:47:50.389220+00:00",
+    "scrape_status": "SUCCESS",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  }
+},
+{
+  "input": {
+    "animal_name": "Cat46",
+    "birth_day": "2019-03-12",
+    "gender": "male",
+    "species": "CHAT",
+    "breed": "MANX",
+    "is_cross_breed": false,
+    "is_indoor": true,
+    "city": "44000",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  },
+  "output": {
+    "id": "b14d2a63-5e09-42e4-a522-77873041b487",
+    "pet_id": "f895e0c4-99c1-4c2b-b1a5-08464cc48539",
+    "source_site": "santevet.com",
+    "provider_name": "Santevet",
+    "package_name": "Cat Indoor",
+    "package_code": "LowCost",
+    "premium_amount": 25.12,
+    "premium_currency": "EUR",
+    "premium_period": "monthly",
+    "coverage_amount": 90,
+    "excess_amount": 50,
+    "features": {
+      "coverage_limits": {
+        "accidentIllness": 3000,
+        "accident": 0,
+        "illness": 0,
+        "prevention": 75,
+        "therapeuticNutrition": 50
+      },
+      "waiting_periods": {
+        "waitingPeriodAccident": {
+          "date": "2026-07-30",
+          "value": 2,
+          "granularity": "days"
+        },
+        "waitingPeriodIllness": {
+          "date": "2026-09-11",
+          "value": 45,
+          "granularity": "days"
+        },
+        "waitingPeriodSurgery": {
+          "date": "2027-01-28",
+          "value": 6,
+          "granularity": "months"
+        }
+      },
+      "management_fee": 0,
+      "is_recommended": false,
+      "options": []
+    },
+    "insurance_metadata": {
+      "formula_id": 279,
+      "level_id": 1,
+      "brand_id": 0,
+      "country_code": "FR"
+    },
+    "quote_url": "https://assurance.santevet.com",
+    "scraped_at": "2026-07-28T09:47:50.389295+00:00",
+    "scrape_status": "SUCCESS",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  }
+},
+{
+  "input": {
+    "animal_name": "Cat44",
+    "birth_day": "2019-07-05",
+    "gender": "female",
+    "species": "CHAT",
+    "breed": "DEVON_REX",
+    "is_cross_breed": false,
+    "is_indoor": false,
+    "city": "69001",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  },
+  "output": {
+    "id": "b792fd43-0c19-4acb-ade2-17f7dde86898",
+    "pet_id": "0722fc48-ccf9-4cff-9cfc-e9cd8c786049",
+    "source_site": "santevet.com",
+    "provider_name": "Santevet",
+    "package_name": "Light",
+    "package_code": "LowCost",
+    "premium_amount": 18.74,
+    "premium_currency": "EUR",
+    "premium_period": "monthly",
+    "coverage_amount": 60,
+    "excess_amount": 0,
+    "features": {
+      "coverage_limits": {
+        "accidentIllness": 1500,
+        "accident": 0,
+        "illness": 0,
+        "prevention": 30,
+        "therapeuticNutrition": 0
+      },
+      "waiting_periods": {
+        "waitingPeriodAccident": {
+          "date": "2026-07-30",
+          "value": 2,
+          "granularity": "days"
+        },
+        "waitingPeriodIllness": {
+          "date": "2026-09-11",
+          "value": 45,
+          "granularity": "days"
+        },
+        "waitingPeriodSurgery": {
+          "date": "2027-01-28",
+          "value": 6,
+          "granularity": "months"
+        }
+      },
+      "management_fee": 0,
+      "is_recommended": false,
+      "options": []
+    },
+    "insurance_metadata": {
+      "formula_id": 274,
+      "level_id": 1,
+      "brand_id": 0,
+      "country_code": "FR"
+    },
+    "quote_url": "https://assurance.santevet.com",
+    "scraped_at": "2026-07-28T09:47:54.950540+00:00",
+    "scrape_status": "SUCCESS",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  }
+},
+{
+  "input": {
+    "animal_name": "Cat44",
+    "birth_day": "2019-07-05",
+    "gender": "female",
+    "species": "CHAT",
+    "breed": "DEVON_REX",
+    "is_cross_breed": false,
+    "is_indoor": false,
+    "city": "69001",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  },
+  "output": {
+    "id": "2dace6ff-2662-4ba1-9077-6fa251e85a89",
+    "pet_id": "339dde21-c4d0-42e9-9f58-09e78f8e7a77",
+    "source_site": "santevet.com",
+    "provider_name": "Santevet",
+    "package_name": "Confort",
+    "package_code": "MiddleCost",
+    "premium_amount": 27.03,
+    "premium_currency": "EUR",
+    "premium_period": "monthly",
+    "coverage_amount": 70,
+    "excess_amount": 20,
+    "features": {
+      "coverage_limits": {
+        "accidentIllness": 2000,
+        "accident": 0,
+        "illness": 0,
+        "prevention": 50,
+        "therapeuticNutrition": 0
+      },
+      "waiting_periods": {
+        "waitingPeriodAccident": {
+          "date": "2026-07-30",
+          "value": 2,
+          "granularity": "days"
+        },
+        "waitingPeriodIllness": {
+          "date": "2026-09-11",
+          "value": 45,
+          "granularity": "days"
+        },
+        "waitingPeriodSurgery": {
+          "date": "2027-01-28",
+          "value": 6,
+          "granularity": "months"
+        }
+      },
+      "management_fee": 0,
+      "is_recommended": false,
+      "options": []
+    },
+    "insurance_metadata": {
+      "formula_id": 275,
+      "level_id": 2,
+      "brand_id": 0,
+      "country_code": "FR"
+    },
+    "quote_url": "https://assurance.santevet.com",
+    "scraped_at": "2026-07-28T09:47:54.950629+00:00",
+    "scrape_status": "SUCCESS",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  }
+},
+{
+  "input": {
+    "animal_name": "Cat44",
+    "birth_day": "2019-07-05",
+    "gender": "female",
+    "species": "CHAT",
+    "breed": "DEVON_REX",
+    "is_cross_breed": false,
+    "is_indoor": false,
+    "city": "69001",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  },
+  "output": {
+    "id": "828494b3-99fd-472e-b826-6e367a775ca7",
+    "pet_id": "5bd0b201-4c27-4a2d-9087-60d8befb8609",
+    "source_site": "santevet.com",
+    "provider_name": "Santevet",
+    "package_name": "Confort +",
+    "package_code": "HighCost",
+    "premium_amount": 37.81,
+    "premium_currency": "EUR",
+    "premium_period": "monthly",
+    "coverage_amount": 80,
+    "excess_amount": 30,
+    "features": {
+      "coverage_limits": {
+        "accidentIllness": 3000,
+        "accident": 0,
+        "illness": 0,
+        "prevention": 75,
+        "therapeuticNutrition": 0
+      },
+      "waiting_periods": {
+        "waitingPeriodAccident": {
+          "date": "2026-07-30",
+          "value": 2,
+          "granularity": "days"
+        },
+        "waitingPeriodIllness": {
+          "date": "2026-09-11",
+          "value": 45,
+          "granularity": "days"
+        },
+        "waitingPeriodSurgery": {
+          "date": "2027-01-28",
+          "value": 6,
+          "granularity": "months"
+        }
+      },
+      "management_fee": 0,
+      "is_recommended": true,
+      "options": []
+    },
+    "insurance_metadata": {
+      "formula_id": 276,
+      "level_id": 3,
+      "brand_id": 0,
+      "country_code": "FR"
+    },
+    "quote_url": "https://assurance.santevet.com",
+    "scraped_at": "2026-07-28T09:47:54.950680+00:00",
+    "scrape_status": "SUCCESS",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  }
+},
+{
+  "input": {
+    "animal_name": "Cat44",
+    "birth_day": "2019-07-05",
+    "gender": "female",
+    "species": "CHAT",
+    "breed": "DEVON_REX",
+    "is_cross_breed": false,
+    "is_indoor": false,
+    "city": "69001",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  },
+  "output": {
+    "id": "5c64f4f5-2b87-49c6-8628-ccd187dec938",
+    "pet_id": "8db10afb-cbe6-44a3-a84a-f1bf04e144fe",
+    "source_site": "santevet.com",
+    "provider_name": "Santevet",
+    "package_name": "Cat Indoor",
+    "package_code": "LowCost",
+    "premium_amount": 27.58,
+    "premium_currency": "EUR",
+    "premium_period": "monthly",
+    "coverage_amount": 90,
+    "excess_amount": 50,
+    "features": {
+      "coverage_limits": {
+        "accidentIllness": 3000,
+        "accident": 0,
+        "illness": 0,
+        "prevention": 75,
+        "therapeuticNutrition": 50
+      },
+      "waiting_periods": {
+        "waitingPeriodAccident": {
+          "date": "2026-07-30",
+          "value": 2,
+          "granularity": "days"
+        },
+        "waitingPeriodIllness": {
+          "date": "2026-09-11",
+          "value": 45,
+          "granularity": "days"
+        },
+        "waitingPeriodSurgery": {
+          "date": "2027-01-28",
+          "value": 6,
+          "granularity": "months"
+        }
+      },
+      "management_fee": 0,
+      "is_recommended": false,
+      "options": []
+    },
+    "insurance_metadata": {
+      "formula_id": 279,
+      "level_id": 1,
+      "brand_id": 0,
+      "country_code": "FR"
+    },
+    "quote_url": "https://assurance.santevet.com",
+    "scraped_at": "2026-07-28T09:47:54.950725+00:00",
+    "scrape_status": "SUCCESS",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  }
+},
+{
+  "input": {
+    "animal_name": "Cat43",
+    "birth_day": "2024-09-11",
+    "gender": "female",
+    "species": "CHAT",
+    "breed": "SCOTTISH_FOLD",
+    "is_cross_breed": false,
+    "is_indoor": true,
+    "city": "31000",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  },
+  "output": {
+    "id": "fd3d1345-f2b2-4150-8aae-1f74eb58c8c1",
+    "pet_id": "1a5ba3ce-bf23-45f0-ba4e-d92f4e59b05a",
+    "source_site": "santevet.com",
+    "provider_name": "Santevet",
+    "package_name": "Light",
+    "package_code": "LowCost",
+    "premium_amount": 15.56,
+    "premium_currency": "EUR",
+    "premium_period": "monthly",
+    "coverage_amount": 60,
+    "excess_amount": 0,
+    "features": {
+      "coverage_limits": {
+        "accidentIllness": 1500,
+        "accident": 0,
+        "illness": 0,
+        "prevention": 30,
+        "therapeuticNutrition": 0
+      },
+      "waiting_periods": {
+        "waitingPeriodAccident": {
+          "date": "2026-07-30",
+          "value": 2,
+          "granularity": "days"
+        },
+        "waitingPeriodIllness": {
+          "date": "2026-09-11",
+          "value": 45,
+          "granularity": "days"
+        },
+        "waitingPeriodSurgery": {
+          "date": "2027-01-28",
+          "value": 6,
+          "granularity": "months"
+        }
+      },
+      "management_fee": 0,
+      "is_recommended": false,
+      "options": []
+    },
+    "insurance_metadata": {
+      "formula_id": 274,
+      "level_id": 1,
+      "brand_id": 0,
+      "country_code": "FR"
+    },
+    "quote_url": "https://assurance.santevet.com",
+    "scraped_at": "2026-07-28T09:47:56.672475+00:00",
+    "scrape_status": "SUCCESS",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  }
+},
+{
+  "input": {
+    "animal_name": "Cat43",
+    "birth_day": "2024-09-11",
+    "gender": "female",
+    "species": "CHAT",
+    "breed": "SCOTTISH_FOLD",
+    "is_cross_breed": false,
+    "is_indoor": true,
+    "city": "31000",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  },
+  "output": {
+    "id": "15827571-0430-45eb-b8ac-20ec16364117",
+    "pet_id": "838d01fa-daa1-473e-947f-49aa84bc74ef",
+    "source_site": "santevet.com",
+    "provider_name": "Santevet",
+    "package_name": "Confort",
+    "package_code": "MiddleCost",
+    "premium_amount": 23.64,
+    "premium_currency": "EUR",
+    "premium_period": "monthly",
+    "coverage_amount": 70,
+    "excess_amount": 20,
+    "features": {
+      "coverage_limits": {
+        "accidentIllness": 2000,
+        "accident": 0,
+        "illness": 0,
+        "prevention": 50,
+        "therapeuticNutrition": 0
+      },
+      "waiting_periods": {
+        "waitingPeriodAccident": {
+          "date": "2026-07-30",
+          "value": 2,
+          "granularity": "days"
+        },
+        "waitingPeriodIllness": {
+          "date": "2026-09-11",
+          "value": 45,
+          "granularity": "days"
+        },
+        "waitingPeriodSurgery": {
+          "date": "2027-01-28",
+          "value": 6,
+          "granularity": "months"
+        }
+      },
+      "management_fee": 0,
+      "is_recommended": false,
+      "options": []
+    },
+    "insurance_metadata": {
+      "formula_id": 275,
+      "level_id": 2,
+      "brand_id": 0,
+      "country_code": "FR"
+    },
+    "quote_url": "https://assurance.santevet.com",
+    "scraped_at": "2026-07-28T09:47:56.672540+00:00",
+    "scrape_status": "SUCCESS",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  }
+},
+{
+  "input": {
+    "animal_name": "Cat43",
+    "birth_day": "2024-09-11",
+    "gender": "female",
+    "species": "CHAT",
+    "breed": "SCOTTISH_FOLD",
+    "is_cross_breed": false,
+    "is_indoor": true,
+    "city": "31000",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  },
+  "output": {
+    "id": "7e396d81-649a-45ea-a7d1-310c417aa253",
+    "pet_id": "052bce4f-af22-4ad9-a58c-94c546dd01ca",
+    "source_site": "santevet.com",
+    "provider_name": "Santevet",
+    "package_name": "Confort +",
+    "package_code": "HighCost",
+    "premium_amount": 32.61,
+    "premium_currency": "EUR",
+    "premium_period": "monthly",
+    "coverage_amount": 80,
+    "excess_amount": 30,
+    "features": {
+      "coverage_limits": {
+        "accidentIllness": 3000,
+        "accident": 0,
+        "illness": 0,
+        "prevention": 75,
+        "therapeuticNutrition": 0
+      },
+      "waiting_periods": {
+        "waitingPeriodAccident": {
+          "date": "2026-07-30",
+          "value": 2,
+          "granularity": "days"
+        },
+        "waitingPeriodIllness": {
+          "date": "2026-09-11",
+          "value": 45,
+          "granularity": "days"
+        },
+        "waitingPeriodSurgery": {
+          "date": "2027-01-28",
+          "value": 6,
+          "granularity": "months"
+        }
+      },
+      "management_fee": 0,
+      "is_recommended": true,
+      "options": []
+    },
+    "insurance_metadata": {
+      "formula_id": 276,
+      "level_id": 3,
+      "brand_id": 0,
+      "country_code": "FR"
+    },
+    "quote_url": "https://assurance.santevet.com",
+    "scraped_at": "2026-07-28T09:47:56.672581+00:00",
+    "scrape_status": "SUCCESS",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  }
+},
+{
+  "input": {
+    "animal_name": "Cat43",
+    "birth_day": "2024-09-11",
+    "gender": "female",
+    "species": "CHAT",
+    "breed": "SCOTTISH_FOLD",
+    "is_cross_breed": false,
+    "is_indoor": true,
+    "city": "31000",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  },
+  "output": {
+    "id": "eec58291-a7c2-4c4e-af45-3a7d7cf44459",
+    "pet_id": "c8b9c7d0-70fd-4f50-8877-ca6ea92921e3",
+    "source_site": "santevet.com",
+    "provider_name": "Santevet",
+    "package_name": "Premium",
+    "package_code": "HighCost",
+    "premium_amount": 41.2,
+    "premium_currency": "EUR",
+    "premium_period": "monthly",
+    "coverage_amount": 90,
+    "excess_amount": 50,
+    "features": {
+      "coverage_limits": {
+        "accidentIllness": 3500,
+        "accident": 0,
+        "illness": 0,
+        "prevention": 120,
+        "therapeuticNutrition": 0
+      },
+      "waiting_periods": {
+        "waitingPeriodAccident": {
+          "date": "2026-07-30",
+          "value": 2,
+          "granularity": "days"
+        },
+        "waitingPeriodIllness": {
+          "date": "2026-09-11",
+          "value": 45,
+          "granularity": "days"
+        },
+        "waitingPeriodSurgery": {
+          "date": "2027-01-28",
+          "value": 6,
+          "granularity": "months"
+        }
+      },
+      "management_fee": 0,
+      "is_recommended": false,
+      "options": []
+    },
+    "insurance_metadata": {
+      "formula_id": 277,
+      "level_id": 3,
+      "brand_id": 0,
+      "country_code": "FR"
+    },
+    "quote_url": "https://assurance.santevet.com",
+    "scraped_at": "2026-07-28T09:47:56.672617+00:00",
+    "scrape_status": "SUCCESS",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  }
+},
+{
+  "input": {
+    "animal_name": "Cat43",
+    "birth_day": "2024-09-11",
+    "gender": "female",
+    "species": "CHAT",
+    "breed": "SCOTTISH_FOLD",
+    "is_cross_breed": false,
+    "is_indoor": true,
+    "city": "31000",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  },
+  "output": {
+    "id": "4cdfa206-c1d5-4472-8371-470aa4cb9f7d",
+    "pet_id": "89865969-c0f2-49b0-b3dd-d3f652a3054d",
+    "source_site": "santevet.com",
+    "provider_name": "Santevet",
+    "package_name": "Optimal",
+    "package_code": "HighCost",
+    "premium_amount": 50.37,
+    "premium_currency": "EUR",
+    "premium_period": "monthly",
+    "coverage_amount": 100,
+    "excess_amount": 75,
+    "features": {
+      "coverage_limits": {
+        "accidentIllness": 4000,
+        "accident": 0,
+        "illness": 0,
+        "prevention": 150,
+        "therapeuticNutrition": 50
+      },
+      "waiting_periods": {
+        "waitingPeriodAccident": {
+          "date": "2026-07-30",
+          "value": 2,
+          "granularity": "days"
+        },
+        "waitingPeriodIllness": {
+          "date": "2026-09-11",
+          "value": 45,
+          "granularity": "days"
+        },
+        "waitingPeriodSurgery": {
+          "date": "2027-01-28",
+          "value": 6,
+          "granularity": "months"
+        }
+      },
+      "management_fee": 0,
+      "is_recommended": false,
+      "options": []
+    },
+    "insurance_metadata": {
+      "formula_id": 278,
+      "level_id": 3,
+      "brand_id": 0,
+      "country_code": "FR"
+    },
+    "quote_url": "https://assurance.santevet.com",
+    "scraped_at": "2026-07-28T09:47:56.672653+00:00",
+    "scrape_status": "SUCCESS",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  }
+},
+{
+  "input": {
+    "animal_name": "Cat43",
+    "birth_day": "2024-09-11",
+    "gender": "female",
+    "species": "CHAT",
+    "breed": "SCOTTISH_FOLD",
+    "is_cross_breed": false,
+    "is_indoor": true,
+    "city": "31000",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  },
+  "output": {
+    "id": "48219443-c6e2-4908-bba9-5d2a3da3e803",
+    "pet_id": "d550737c-546d-45b4-b9f5-83b43a5ab595",
+    "source_site": "santevet.com",
+    "provider_name": "Santevet",
+    "package_name": "Cat Indoor",
+    "package_code": "LowCost",
+    "premium_amount": 27.18,
+    "premium_currency": "EUR",
+    "premium_period": "monthly",
+    "coverage_amount": 90,
+    "excess_amount": 50,
+    "features": {
+      "coverage_limits": {
+        "accidentIllness": 3000,
+        "accident": 0,
+        "illness": 0,
+        "prevention": 75,
+        "therapeuticNutrition": 50
+      },
+      "waiting_periods": {
+        "waitingPeriodAccident": {
+          "date": "2026-07-30",
+          "value": 2,
+          "granularity": "days"
+        },
+        "waitingPeriodIllness": {
+          "date": "2026-09-11",
+          "value": 45,
+          "granularity": "days"
+        },
+        "waitingPeriodSurgery": {
+          "date": "2027-01-28",
+          "value": 6,
+          "granularity": "months"
+        }
+      },
+      "management_fee": 0,
+      "is_recommended": false,
+      "options": []
+    },
+    "insurance_metadata": {
+      "formula_id": 279,
+      "level_id": 1,
+      "brand_id": 0,
+      "country_code": "FR"
+    },
+    "quote_url": "https://assurance.santevet.com",
+    "scraped_at": "2026-07-28T09:47:56.672691+00:00",
+    "scrape_status": "SUCCESS",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  }
+},
+{
+  "input": {
+    "animal_name": "Cat42",
+    "birth_day": "2018-10-20",
+    "gender": "male",
+    "species": "CHAT",
+    "breed": "SAVANNAH",
+    "is_cross_breed": false,
+    "is_indoor": true,
+    "city": "06000",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  },
+  "output": {
+    "id": "9eb297ff-b79c-4e69-ab0d-1d9795b62c1a",
+    "pet_id": "ac0915dd-b73c-4cee-acca-4a3d8b48cda3",
+    "source_site": "santevet.com",
+    "provider_name": "Santevet",
+    "package_name": "Light",
+    "package_code": "LowCost",
+    "premium_amount": 19.3,
+    "premium_currency": "EUR",
+    "premium_period": "monthly",
+    "coverage_amount": 60,
+    "excess_amount": 0,
+    "features": {
+      "coverage_limits": {
+        "accidentIllness": 1500,
+        "accident": 0,
+        "illness": 0,
+        "prevention": 30,
+        "therapeuticNutrition": 0
+      },
+      "waiting_periods": {
+        "waitingPeriodAccident": {
+          "date": "2026-07-30",
+          "value": 2,
+          "granularity": "days"
+        },
+        "waitingPeriodIllness": {
+          "date": "2026-09-11",
+          "value": 45,
+          "granularity": "days"
+        },
+        "waitingPeriodSurgery": {
+          "date": "2027-01-28",
+          "value": 6,
+          "granularity": "months"
+        }
+      },
+      "management_fee": 0,
+      "is_recommended": false,
+      "options": []
+    },
+    "insurance_metadata": {
+      "formula_id": 274,
+      "level_id": 1,
+      "brand_id": 0,
+      "country_code": "FR"
+    },
+    "quote_url": "https://assurance.santevet.com",
+    "scraped_at": "2026-07-28T09:47:59.193871+00:00",
+    "scrape_status": "SUCCESS",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  }
+},
+{
+  "input": {
+    "animal_name": "Cat42",
+    "birth_day": "2018-10-20",
+    "gender": "male",
+    "species": "CHAT",
+    "breed": "SAVANNAH",
+    "is_cross_breed": false,
+    "is_indoor": true,
+    "city": "06000",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  },
+  "output": {
+    "id": "986c1c7c-339e-455a-a7a3-91b08adf2190",
+    "pet_id": "7221b807-846a-4867-a793-b0adc4399b83",
+    "source_site": "santevet.com",
+    "provider_name": "Santevet",
+    "package_name": "Confort",
+    "package_code": "MiddleCost",
+    "premium_amount": 27.82,
+    "premium_currency": "EUR",
+    "premium_period": "monthly",
+    "coverage_amount": 70,
+    "excess_amount": 20,
+    "features": {
+      "coverage_limits": {
+        "accidentIllness": 2000,
+        "accident": 0,
+        "illness": 0,
+        "prevention": 50,
+        "therapeuticNutrition": 0
+      },
+      "waiting_periods": {
+        "waitingPeriodAccident": {
+          "date": "2026-07-30",
+          "value": 2,
+          "granularity": "days"
+        },
+        "waitingPeriodIllness": {
+          "date": "2026-09-11",
+          "value": 45,
+          "granularity": "days"
+        },
+        "waitingPeriodSurgery": {
+          "date": "2027-01-28",
+          "value": 6,
+          "granularity": "months"
+        }
+      },
+      "management_fee": 0,
+      "is_recommended": false,
+      "options": []
+    },
+    "insurance_metadata": {
+      "formula_id": 275,
+      "level_id": 2,
+      "brand_id": 0,
+      "country_code": "FR"
+    },
+    "quote_url": "https://assurance.santevet.com",
+    "scraped_at": "2026-07-28T09:47:59.193947+00:00",
+    "scrape_status": "SUCCESS",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  }
+},
+{
+  "input": {
+    "animal_name": "Cat42",
+    "birth_day": "2018-10-20",
+    "gender": "male",
+    "species": "CHAT",
+    "breed": "SAVANNAH",
+    "is_cross_breed": false,
+    "is_indoor": true,
+    "city": "06000",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  },
+  "output": {
+    "id": "d86519fa-d024-4d0c-814e-558f31f1276b",
+    "pet_id": "37749a68-c475-423d-85b8-858f0ec00cb5",
+    "source_site": "santevet.com",
+    "provider_name": "Santevet",
+    "package_name": "Confort +",
+    "package_code": "HighCost",
+    "premium_amount": 38.9,
+    "premium_currency": "EUR",
+    "premium_period": "monthly",
+    "coverage_amount": 80,
+    "excess_amount": 30,
+    "features": {
+      "coverage_limits": {
+        "accidentIllness": 3000,
+        "accident": 0,
+        "illness": 0,
+        "prevention": 75,
+        "therapeuticNutrition": 0
+      },
+      "waiting_periods": {
+        "waitingPeriodAccident": {
+          "date": "2026-07-30",
+          "value": 2,
+          "granularity": "days"
+        },
+        "waitingPeriodIllness": {
+          "date": "2026-09-11",
+          "value": 45,
+          "granularity": "days"
+        },
+        "waitingPeriodSurgery": {
+          "date": "2027-01-28",
+          "value": 6,
+          "granularity": "months"
+        }
+      },
+      "management_fee": 0,
+      "is_recommended": true,
+      "options": []
+    },
+    "insurance_metadata": {
+      "formula_id": 276,
+      "level_id": 3,
+      "brand_id": 0,
+      "country_code": "FR"
+    },
+    "quote_url": "https://assurance.santevet.com",
+    "scraped_at": "2026-07-28T09:47:59.193995+00:00",
+    "scrape_status": "SUCCESS",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  }
+},
+{
+  "input": {
+    "animal_name": "Cat42",
+    "birth_day": "2018-10-20",
+    "gender": "male",
+    "species": "CHAT",
+    "breed": "SAVANNAH",
+    "is_cross_breed": false,
+    "is_indoor": true,
+    "city": "06000",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  },
+  "output": {
+    "id": "9ef51398-bebe-4b27-8231-bb9b92cd0a4b",
+    "pet_id": "3c6c75a1-05d8-4cb8-8941-25fd406fca7f",
+    "source_site": "santevet.com",
+    "provider_name": "Santevet",
+    "package_name": "Cat Indoor",
+    "package_code": "LowCost",
+    "premium_amount": 28.09,
+    "premium_currency": "EUR",
+    "premium_period": "monthly",
+    "coverage_amount": 90,
+    "excess_amount": 50,
+    "features": {
+      "coverage_limits": {
+        "accidentIllness": 3000,
+        "accident": 0,
+        "illness": 0,
+        "prevention": 75,
+        "therapeuticNutrition": 50
+      },
+      "waiting_periods": {
+        "waitingPeriodAccident": {
+          "date": "2026-07-30",
+          "value": 2,
+          "granularity": "days"
+        },
+        "waitingPeriodIllness": {
+          "date": "2026-09-11",
+          "value": 45,
+          "granularity": "days"
+        },
+        "waitingPeriodSurgery": {
+          "date": "2027-01-28",
+          "value": 6,
+          "granularity": "months"
+        }
+      },
+      "management_fee": 0,
+      "is_recommended": false,
+      "options": []
+    },
+    "insurance_metadata": {
+      "formula_id": 279,
+      "level_id": 1,
+      "brand_id": 0,
+      "country_code": "FR"
+    },
+    "quote_url": "https://assurance.santevet.com",
+    "scraped_at": "2026-07-28T09:47:59.194039+00:00",
+    "scrape_status": "SUCCESS",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  }
+},
+{
+  "input": {
+    "animal_name": "Cat40",
+    "birth_day": "2024-08-17",
+    "gender": "male",
+    "species": "CHAT",
+    "breed": "BIRMAN",
+    "is_cross_breed": true,
+    "is_indoor": true,
+    "city": "13001",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  },
+  "output": {
+    "id": "26ccd5d7-19e0-4463-b010-b86178dbd5cf",
+    "pet_id": "a58565f2-003e-4d4f-8ca1-f02024d2f418",
+    "source_site": "santevet.com",
+    "provider_name": "Santevet",
+    "package_name": "Light",
+    "package_code": "LowCost",
+    "premium_amount": 16.29,
+    "premium_currency": "EUR",
+    "premium_period": "monthly",
+    "coverage_amount": 60,
+    "excess_amount": 0,
+    "features": {
+      "coverage_limits": {
+        "accidentIllness": 1500,
+        "accident": 0,
+        "illness": 0,
+        "prevention": 30,
+        "therapeuticNutrition": 0
+      },
+      "waiting_periods": {
+        "waitingPeriodAccident": {
+          "date": "2026-07-30",
+          "value": 2,
+          "granularity": "days"
+        },
+        "waitingPeriodIllness": {
+          "date": "2026-09-11",
+          "value": 45,
+          "granularity": "days"
+        },
+        "waitingPeriodSurgery": {
+          "date": "2027-01-28",
+          "value": 6,
+          "granularity": "months"
+        }
+      },
+      "management_fee": 0,
+      "is_recommended": false,
+      "options": []
+    },
+    "insurance_metadata": {
+      "formula_id": 274,
+      "level_id": 1,
+      "brand_id": 0,
+      "country_code": "FR"
+    },
+    "quote_url": "https://assurance.santevet.com",
+    "scraped_at": "2026-07-28T09:48:04.115770+00:00",
+    "scrape_status": "SUCCESS",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  }
+},
+{
+  "input": {
+    "animal_name": "Cat40",
+    "birth_day": "2024-08-17",
+    "gender": "male",
+    "species": "CHAT",
+    "breed": "BIRMAN",
+    "is_cross_breed": true,
+    "is_indoor": true,
+    "city": "13001",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  },
+  "output": {
+    "id": "79b58396-2e77-410e-a087-cb069d6eb313",
+    "pet_id": "d5bc1e4f-bd17-4d65-b526-32d7f24a779c",
+    "source_site": "santevet.com",
+    "provider_name": "Santevet",
+    "package_name": "Confort",
+    "package_code": "MiddleCost",
+    "premium_amount": 24.71,
+    "premium_currency": "EUR",
+    "premium_period": "monthly",
+    "coverage_amount": 70,
+    "excess_amount": 20,
+    "features": {
+      "coverage_limits": {
+        "accidentIllness": 2000,
+        "accident": 0,
+        "illness": 0,
+        "prevention": 50,
+        "therapeuticNutrition": 0
+      },
+      "waiting_periods": {
+        "waitingPeriodAccident": {
+          "date": "2026-07-30",
+          "value": 2,
+          "granularity": "days"
+        },
+        "waitingPeriodIllness": {
+          "date": "2026-09-11",
+          "value": 45,
+          "granularity": "days"
+        },
+        "waitingPeriodSurgery": {
+          "date": "2027-01-28",
+          "value": 6,
+          "granularity": "months"
+        }
+      },
+      "management_fee": 0,
+      "is_recommended": false,
+      "options": []
+    },
+    "insurance_metadata": {
+      "formula_id": 275,
+      "level_id": 2,
+      "brand_id": 0,
+      "country_code": "FR"
+    },
+    "quote_url": "https://assurance.santevet.com",
+    "scraped_at": "2026-07-28T09:48:04.115876+00:00",
+    "scrape_status": "SUCCESS",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  }
+},
+{
+  "input": {
+    "animal_name": "Cat40",
+    "birth_day": "2024-08-17",
+    "gender": "male",
+    "species": "CHAT",
+    "breed": "BIRMAN",
+    "is_cross_breed": true,
+    "is_indoor": true,
+    "city": "13001",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  },
+  "output": {
+    "id": "c9ab69ab-a608-4f90-8fab-a53fe3c11d31",
+    "pet_id": "15f19288-edcb-4ba5-a788-5d9bc957e6fd",
+    "source_site": "santevet.com",
+    "provider_name": "Santevet",
+    "package_name": "Confort +",
+    "package_code": "HighCost",
+    "premium_amount": 34.07,
+    "premium_currency": "EUR",
+    "premium_period": "monthly",
+    "coverage_amount": 80,
+    "excess_amount": 30,
+    "features": {
+      "coverage_limits": {
+        "accidentIllness": 3000,
+        "accident": 0,
+        "illness": 0,
+        "prevention": 75,
+        "therapeuticNutrition": 0
+      },
+      "waiting_periods": {
+        "waitingPeriodAccident": {
+          "date": "2026-07-30",
+          "value": 2,
+          "granularity": "days"
+        },
+        "waitingPeriodIllness": {
+          "date": "2026-09-11",
+          "value": 45,
+          "granularity": "days"
+        },
+        "waitingPeriodSurgery": {
+          "date": "2027-01-28",
+          "value": 6,
+          "granularity": "months"
+        }
+      },
+      "management_fee": 0,
+      "is_recommended": true,
+      "options": []
+    },
+    "insurance_metadata": {
+      "formula_id": 276,
+      "level_id": 3,
+      "brand_id": 0,
+      "country_code": "FR"
+    },
+    "quote_url": "https://assurance.santevet.com",
+    "scraped_at": "2026-07-28T09:48:04.115943+00:00",
+    "scrape_status": "SUCCESS",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  }
+},
+{
+  "input": {
+    "animal_name": "Cat40",
+    "birth_day": "2024-08-17",
+    "gender": "male",
+    "species": "CHAT",
+    "breed": "BIRMAN",
+    "is_cross_breed": true,
+    "is_indoor": true,
+    "city": "13001",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  },
+  "output": {
+    "id": "dae11baf-2cd5-442c-a90e-6f4e8bf667e5",
+    "pet_id": "5ef6d435-437b-4289-be11-6bfb56602132",
+    "source_site": "santevet.com",
+    "provider_name": "Santevet",
+    "package_name": "Premium",
+    "package_code": "HighCost",
+    "premium_amount": 43.01,
+    "premium_currency": "EUR",
+    "premium_period": "monthly",
+    "coverage_amount": 90,
+    "excess_amount": 50,
+    "features": {
+      "coverage_limits": {
+        "accidentIllness": 3500,
+        "accident": 0,
+        "illness": 0,
+        "prevention": 120,
+        "therapeuticNutrition": 0
+      },
+      "waiting_periods": {
+        "waitingPeriodAccident": {
+          "date": "2026-07-30",
+          "value": 2,
+          "granularity": "days"
+        },
+        "waitingPeriodIllness": {
+          "date": "2026-09-11",
+          "value": 45,
+          "granularity": "days"
+        },
+        "waitingPeriodSurgery": {
+          "date": "2027-01-28",
+          "value": 6,
+          "granularity": "months"
+        }
+      },
+      "management_fee": 0,
+      "is_recommended": false,
+      "options": []
+    },
+    "insurance_metadata": {
+      "formula_id": 277,
+      "level_id": 3,
+      "brand_id": 0,
+      "country_code": "FR"
+    },
+    "quote_url": "https://assurance.santevet.com",
+    "scraped_at": "2026-07-28T09:48:04.116000+00:00",
+    "scrape_status": "SUCCESS",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  }
+},
+{
+  "input": {
+    "animal_name": "Cat40",
+    "birth_day": "2024-08-17",
+    "gender": "male",
+    "species": "CHAT",
+    "breed": "BIRMAN",
+    "is_cross_breed": true,
+    "is_indoor": true,
+    "city": "13001",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  },
+  "output": {
+    "id": "9db56031-fe25-4146-b222-cfbbb43fdb76",
+    "pet_id": "f877dd41-a90c-4710-9ee6-1d20b4762b5e",
+    "source_site": "santevet.com",
+    "provider_name": "Santevet",
+    "package_name": "Optimal",
+    "package_code": "HighCost",
+    "premium_amount": 52.15,
+    "premium_currency": "EUR",
+    "premium_period": "monthly",
+    "coverage_amount": 100,
+    "excess_amount": 75,
+    "features": {
+      "coverage_limits": {
+        "accidentIllness": 4000,
+        "accident": 0,
+        "illness": 0,
+        "prevention": 150,
+        "therapeuticNutrition": 50
+      },
+      "waiting_periods": {
+        "waitingPeriodAccident": {
+          "date": "2026-07-30",
+          "value": 2,
+          "granularity": "days"
+        },
+        "waitingPeriodIllness": {
+          "date": "2026-09-11",
+          "value": 45,
+          "granularity": "days"
+        },
+        "waitingPeriodSurgery": {
+          "date": "2027-01-28",
+          "value": 6,
+          "granularity": "months"
+        }
+      },
+      "management_fee": 0,
+      "is_recommended": false,
+      "options": []
+    },
+    "insurance_metadata": {
+      "formula_id": 278,
+      "level_id": 3,
+      "brand_id": 0,
+      "country_code": "FR"
+    },
+    "quote_url": "https://assurance.santevet.com",
+    "scraped_at": "2026-07-28T09:48:04.116053+00:00",
+    "scrape_status": "SUCCESS",
+    "created_at": "2026-07-28T09:47:37.025641+00:00"
+  }
+}]
