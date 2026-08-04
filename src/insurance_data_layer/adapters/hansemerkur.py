@@ -31,7 +31,6 @@ from insurance_data_layer.models import (
     TerritoryRule,
 )
 
-
 MONEY_FEATURES = {
     "Commercial, part-time (annual turnover)": (
         "commercial_use_turnover",
