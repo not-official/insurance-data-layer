@@ -18,7 +18,7 @@ It deliberately does **not** perform embeddings or database loading yet. This ph
 
 An adapter is a Python translator for one source. For Santévet, `coverage_amount: 70` is mapped to a `0.70` reimbursement rate. For HanseMerkur, `coverage_amount: 50000000` is mapped to a €50 million overall liability limit. The raw key is identical; the business meaning is not.
 
-All adapters output `CanonicalRecord`, but they populate only applicable concepts. The standard format is therefore a typed object that later maps to connected database tables—not one giant CSV row.
+All adapters output `CanonicalRecord`, but they populate only applicable concepts. The standard format is therefore a typed object that later maps to connected database tables.
 
 ## Layout
 
