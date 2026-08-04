@@ -3,7 +3,7 @@
 Insurance Data Layer converts source-specific pet-insurance scrape results into one validated canonical model. It is the data-refinement boundary before PostgreSQL, pgvector, or a chatbot.
 
 ```text
-raw source JSON -> source adapter -> canonical JSONL -> PostgreSQL loader (next phase)
+raw source JSON -> source adapter -> canonical JSONL -> PostgreSQL loader
                               |-> validation report
 ```
 
@@ -86,31 +86,6 @@ Expected sample results:
 
 Canonical rows currently represent quote options. Repeated plan terms are expected at this interchange stage; the future PostgreSQL loader will upsert and connect providers, products, plan versions, quote requests, quote options, premiums, and rules.
 
-## GitHub workflow
-
-Create an empty GitHub repository named `insurance-data-layer`, then from this directory run:
-
-```bash
-git init
-git branch -M main
-git add .
-git commit -m "feat: establish canonical insurance data pipeline"
-git remote add origin https://github.com/<your-username>/insurance-data-layer.git
-git push -u origin main
-```
-
-For each source, use a focused branch:
-
-```bash
-git switch -c adapter/<source-name>
-# add raw fixture, mapping document, adapter, and tests
-git add .
-git commit -m "feat(adapter): add <source-name> mapping"
-git push -u origin adapter/<source-name>
-```
-
-Do not commit `.env`, credentials, customer emails, or unrestricted production data. Review `docs/SOURCE_MAPPINGS.md` in pull requests because mapping mistakes are domain errors even when Python tests pass.
-
 ## Definition of done for a source
 
 - raw sample preserved with provenance;
@@ -121,7 +96,3 @@ Do not commit `.env`, credentials, customer emails, or unrestricted production d
 - representative and edge-case tests pass;
 - validation report contains zero invalid records;
 - no source-specific field leaks into the canonical model.
-
-## Next phase
-
-After the product owner approves the unresolved mappings in the glossary, add the PostgreSQL schema and an idempotent loader. Embedding/chunk generation should come only after exact structured facts and source clauses have separate storage paths.
